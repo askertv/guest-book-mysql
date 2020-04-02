@@ -16,7 +16,6 @@ echo <<<s
 <h1>$pageTitle</h1>
 s;
 
-
 try {
     $sql = 'SELECT * FROM posts ORDER BY date_added DESC';
 
@@ -62,11 +61,6 @@ s;
     var_dump($e);
     echo "</pre>";
 }
-
-
-
-
-
 
 echo <<<s
 </body>
